@@ -19,5 +19,12 @@
 - Desenvolvimento de carreira:
     > - Desenvolvimento Motivacional: Sentimento de se desenvolver por um combústivel emocional, neste caso, o motivo. Por conta de um motivo específico uma pessoa se compromete a levantar todo dia de manhã por causa de um motivo. 
     > - Atividade Auto conhecimento (linha do tempo: nascimento -> hoje -> futuro).
+- Flexibilidade: Capacidade de conseguir-se adaptar-se ao local de trabalho atual, saber se manter atualizado as novidades e não ficar para trás.
+    > - Adaptação a Mudança
+    > - Amplitude de Atuação
+    > - Resolução de Problemas
+    > - Trabalho em Equipe
+    > - Gestão de Tempo e Prioridades
+    > - Resiliência e Adaptabilidade
     
 
