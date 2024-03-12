@@ -15,4 +15,4 @@
 - Aula 06 Educação Financeira
 - Aula 07 Legislação e Direitos Trabalistas
 - Aula 08 Direitos Humanos
-- Aula 09 
+- Aula 09 23
