@@ -42,5 +42,4 @@
     > - Estrutura Organizacional
     > - Cultura Organizacional -> Seiri (senso de utilização); Seiton (senso de organização); Seiso (senso de limpeza); Seiketsu (senso de normalização); Shitsuke (senso de disciplina).
     > - Desafios e Limitações
-    > - 
 
