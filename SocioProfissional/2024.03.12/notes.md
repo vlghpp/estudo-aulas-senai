@@ -26,5 +26,9 @@
     > - Trabalho em Equipe
     > - Gestão de Tempo e Prioridades
     > - Resiliência e Adaptabilidade
+
+- Ética Empresarial: Refere-se aos princípios, valores e padrões de comportamento moral que orientam as práticas e decisões dentro de uma organização
+    > - Respeito aos Direitos Humanos
+    > - 
     
 
