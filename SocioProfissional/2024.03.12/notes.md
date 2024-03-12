@@ -29,6 +29,9 @@
 
 - Ética Empresarial: Refere-se aos princípios, valores e padrões de comportamento moral que orientam as práticas e decisões dentro de uma organização
     > - Respeito aos Direitos Humanos
-    > - 
-    
+    > - Integridade e Honestidade
+    > - Responsabilidade Social Corporativa (RSC) Exemplo:  Senai, programa PRISMA: Suporte aos colaboradores relacionada a RSC para problemas de psicológicos por exemplo, já o PAQ: Programa para os alunos.
+    > - Gestão Responsável dos Recursos
+    > - Conformidade Legal e Ética
+    > - Ética na Tomada de Decisões
 
