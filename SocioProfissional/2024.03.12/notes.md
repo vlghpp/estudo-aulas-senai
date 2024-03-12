@@ -17,7 +17,7 @@
 - 10 aulas, contemplando diferentes conteúdos.
 - Apresentação dos alunos (nome, idade, e ambição).
 - Desenvolvimento de carreira:
-    > Desenvolvimento Motivacional: Sentimento de se desenvolver por um combústivel emocional, neste caso, o motivo. Por conta de um motivo específico uma pessoa se compromete a levantar todo dia de manhã por causa de um motivo. 
-    > Atividade Auto conhecimento (linha do tempo: nascimento -> hoje -> futuro).
+    > - Desenvolvimento Motivacional: Sentimento de se desenvolver por um combústivel emocional, neste caso, o motivo. Por conta de um motivo específico uma pessoa se compromete a levantar todo dia de manhã por causa de um motivo. 
+    > - Atividade Auto conhecimento (linha do tempo: nascimento -> hoje -> futuro).
     
 
