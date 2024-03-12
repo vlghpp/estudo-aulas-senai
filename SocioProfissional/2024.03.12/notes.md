@@ -34,5 +34,13 @@
     > - Gestão Responsável dos Recursos
     > - Conformidade Legal e Ética
     > - Ética na Tomada de Decisões
-    > -
+- Hierarquia: Refere-se a hierarquia da empresa, quem manda em quem, quais responsabilidades e niveis de um setor, ou a influência de um setor no outro.
+    > - Cadeia de comando
+    > - Niveis Hierárquicos
+    > - Autoridade e Responsabilidade
+    > - Delegação de Autoridade
+    > - Estrutura Organizacional
+    > - Cultura Organizacional -> Seiri (senso de utilização); Seiton (senso de organização); Seiso (senso de limpeza); Seiketsu (senso de normalização); Shitsuke (senso de disciplina).
+    > - Desafios e Limitações
+    > - 
 
