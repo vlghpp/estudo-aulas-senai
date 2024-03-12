@@ -4,6 +4,7 @@
 
 - 40h de carga horária, ou seja 10 encontros.
 - 10 aulas, contemplando diferentes conteúdos.
+- Apresentação dos alunos (nome, idade, e ambição).
 
 ## Diário de Classe
 
@@ -15,3 +16,4 @@
 - Aula 06 Educação Financeira
 - Aula 07 Legislação e Direitos Trabalistas
 - Aula 08 Direitos Humanos
+
