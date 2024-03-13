@@ -5,9 +5,9 @@
  - <a href="vectorlogo.zone">Vectorlogo</a> para buscar imagens logo e colocar na bio.
  - Comandos em linux
         ```
-         cd Desktop -> Entra na pasta 'Desktop'
-         cd Desktop/projeto/ -> Entra na pasta projeto, que está dentro de desktop
-        ```
+        cd Desktop -> Entra na pasta 'Desktop'
+        cd Desktop/projeto/ -> Entra na pasta projeto, que está dentro de desktop
+        
         
         
 - Git ignore: faz com que dê comandos ao git para ele não adicionar arquivos específicos.
