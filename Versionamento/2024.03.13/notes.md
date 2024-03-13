@@ -19,4 +19,11 @@
     .gitignore
 
     ```
+
+- wind + V: Abre uma ferramenta em que possibilita ver a área de transferência, então consegue ter acesso a todas coisas copiadas.
+
+- Token classic no github
+    >- Settings > Developer Settings > Tokens > Token classic > Generate new token
+
+- 
     
