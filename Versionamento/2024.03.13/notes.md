@@ -6,11 +6,7 @@
  - Comandos em linux
         ```
          cd Desktop -> Entra na pasta 'Desktop'
-        ```
-        
-        
-        ``` 
-        cd Desktop/projeto/ -> Entra na pasta projeto, que está dentro de desktop
+         cd Desktop/projeto/ -> Entra na pasta projeto, que está dentro de desktop
         ```
         
         
