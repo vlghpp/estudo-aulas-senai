@@ -10,10 +10,6 @@
 
         cd Desktop/projeto/ -> Entra na pasta projeto, que está dentro de desktop
 
-        ```
-        
-        
-        
 - Git ignore: faz com que dê comandos ao git para ele não adicionar arquivos específicos.
     ``` 
     .gitignore
@@ -29,5 +25,23 @@
 
      ```
         git init -> Inicia o git na pasta atual
+
+        git status -> Verifica se o repositório git teve modificações, caso tiver, indica a dar um git add para subir os arquivos para Stanging Area
+
+        git add . -> Adiciona todos os arquivos untracked para a Stanging Area
+
+        git add 'nome do arquivo' -> Leva apenas o arquivo específico para Stanging Area
+
+        git remote remove origin -> Remove a origem para caso tenha um diretório já na máquina
+
+        git remote add origin 'link do repositório' -> Linka o diretório da máquina com o repositório online no github
+
+        git commit -m "mensagem que quer dar no commit" -> Commita o que foi feito, e adiciona uma frase objetiva com o que foi feito no commit (é obrigado ser específico a mensagem, para que não haja problemas depois em saber o que foi feito nesse commit)
+
+        git push --set --upstream origin master -> Pega tudo feito e manda para o github, pede acesso ao github para fazer login também
+
+    
+
+
         
     
