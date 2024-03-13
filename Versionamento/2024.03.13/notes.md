@@ -25,5 +25,9 @@
 - Token classic no github
     >- Settings > Developer Settings > Tokens > Token classic > Generate new token
 
-- 
+- Comandos do Git
+
+    > - ```
+        git init -> Inicia o git na pasta atual
+        ```
     
