@@ -39,8 +39,7 @@
         git commit -m "mensagem que quer dar no commit" -> Commita o que foi feito, e adiciona uma frase objetiva com o que foi feito no commit (é obrigado ser específico a mensagem, para que não haja problemas depois em saber o que foi feito nesse commit)
 
         git push --set --upstream origin master -> Pega tudo feito e manda para o github, pede acesso ao github para fazer login também
-
-    
+    ```
 
 
         
