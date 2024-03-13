@@ -27,7 +27,7 @@
 
 - Comandos do Git
 
-    > - ```
+     ```
         git init -> Inicia o git na pasta atual
-        ```
+        
     
