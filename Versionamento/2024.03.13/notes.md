@@ -1,7 +1,5 @@
 # Aula 13/03/2024
 
-# Lembrar de tirar a conta do git/email
-
 ## Git e Github
  - Professor ensina a como fazer uma bio no github, usando o <a href="https://readme.so/pt" target="_blank">Readme.so</a>, com todas suas funcionalidades e facilidade de criação.
 
