@@ -4,9 +4,10 @@
  - Professor ensina a como fazer uma bio no github, usando o <a href="https://readme.so/pt" target="_blank">Readme.so</a>, com todas suas funcionalidades e facilidade de criação.
  - <a href="vectorlogo.zone">Vectorlogo</a> para buscar imagens logo e colocar na bio.
  - Comandos em linux
- 
+
         ```
         cd Desktop -> Entra na pasta 'Desktop'
+
         cd Desktop/projeto/ -> Entra na pasta projeto, que está dentro de desktop
 
         ```
