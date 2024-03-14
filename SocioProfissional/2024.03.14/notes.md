@@ -66,4 +66,3 @@
     > - Where? local, departamento
     > - What? objetivo, meta
     ![5W2H](https://www.google.com/url?sa=i&url=https%3A%2F%2Frockcontent.com%2Fbr%2Fblog%2Fo-que-e-5w2h%2F&psig=AOvVaw0W_O4RW-sox75g2MoRwBIT&ust=1710532207546000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJjA-pbD9IQDFQAAAAAdAAAAABAI)
-
