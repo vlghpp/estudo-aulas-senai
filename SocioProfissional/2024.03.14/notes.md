@@ -53,7 +53,7 @@
     > - Meio ambiente: Relacionado quando o problema tem haver com a temperatura ou o meio ambiente que precisa ser controlado.
     > - Material: Relacionado quando o problema é físico, quando pode-se pegar na mão.
     > - Mão de obra: Relacionado quando o problema é com a pessoa que está fazendo o serviço, exemplo, quando um colaborador está fazendo o trabalho com inexperiência.
-    [!ISHIKAWA][def2]
+    ![ISHIKAWA][def2]
 
 - 5W2H
     > - São anônimos em inglês que representam as principais perguntas que devem ser feitas e respondidas ao investigar e relatar um fato ou situação sendo aplicável a vàrias ocasiões principalmente com foco na resolução de problemas ou implantação de novos métodos. São 7 perguntas em inglês para nortear o que você vai fazer
@@ -65,7 +65,7 @@
     > - When? data, cronograma
     > - Where? local, departamento
     > - What? objetivo, meta
-    [!5W2H][def3]
+    ![5W2H][def3]
 
 
 [def]: https://www.google.com/url?sa=i&url=https%3A%2F%2Fevnts.com.br%2Fblog%2Fpdca-para-eventos&psig=AOvVaw2AU_JnbnGafTaF_ofkyHyg&ust=1710531622761000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPid0oDB9IQDFQAAAAAdAAAAABAD
