@@ -42,7 +42,7 @@
     > - Do (executar/fazer) -> Onde põe em prática o plano, acompanha o processo, e, então, chegar na próxima etapa C - Check
     > - Check(checar) -> Etapa em que checa os resultados e verifica se o processo foi funcional, caso for, coloca no próximo passo A - Act, caso não pode ir para o A de Ajuste também.
     > - Act (agir) -> Pega todos registros do processo ou da ideia, e atualiza todas as modificações feitas durante todo processo PDCA. Ou também, quando chegar na parte de Check e nota-se que não é funcional, pode também ser um <strong>A</strong> de Ajuste, para então colocar no próximo passo de P - Plan, e seguir todo processo novamente.
-    [!PDCA](https://www.google.com/url?sa=i&url=https%3A%2F%2Fevnts.com.br%2Fblog%2Fpdca-para-eventos&psig=AOvVaw2AU_JnbnGafTaF_ofkyHyg&ust=1710531622761000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPid0oDB9IQDFQAAAAAdAAAAABAD)
+    ![PDCA](https://www.google.com/url?sa=i&url=https%3A%2F%2Fevnts.com.br%2Fblog%2Fpdca-para-eventos&psig=AOvVaw2AU_JnbnGafTaF_ofkyHyg&ust=1710531622761000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPid0oDB9IQDFQAAAAAdAAAAABAD)
 
 - Diagrama de Ishikawa
     > - O diagrama de Ishikawa ou também conhecido como Diagrama de espinha de peixe, é um gráfico cujo finalidade é organizar o raciocínio em discussões de um problema prioritário, em processos diversos, especialmente na produção.
