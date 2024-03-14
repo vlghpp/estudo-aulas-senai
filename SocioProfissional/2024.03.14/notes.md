@@ -8,7 +8,7 @@
     > - Fundamentos de Sistemas de Gestão da Qualidade
     > - Termos e definições relacionadas com a qualidade
 
-- 5's
+- Introdução aos 5's
     > - Criado por americanos e aplicado no Japão após a 2º Guerra Mundial, com o objetivo de "reorganizar" o país.
         > - Shitsuke: Manter Compromisso
         > - Seiton: Organizar
@@ -17,3 +17,21 @@
         > - Seisou: Limpar 
 
 - Atividade Prática sobre os 5's, onde os alunos tiveram que fazer uma auditoria interna na sala de aula aplicanto o método.
+
+- Introdução ao Brainstorm
+    > - Brainstorm ou tempestade de ideias, mais que uma técnica de dinâmica de grupo, é uma atividade desenvolvida para explorar a potencialidade criativa de um indíviduo ou de um grupo - criatividade em equipe - colocando-a a serviço de objetivos pré-determinados.
+
+- 4 regras de outro do Brainstorm
+    > - Não critique as ideias;
+    > - Gere grandes quantidades de ideias;
+    > - Contrua uma perspectiva diferente a do outro;
+    > - Incentive ideias exageradas;
+
+- Como fazer um brainstrom
+    > - Defina o problema;
+    > - Estabeleça tempo e lugar;
+    > - Convide participantes;
+    > - Eleja um facilitador;
+    > - Respeite a individualidade;
+    > - Colete as ideias;
+    > - Analise qual é a mais viável
