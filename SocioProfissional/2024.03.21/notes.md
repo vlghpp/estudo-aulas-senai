@@ -2,6 +2,8 @@
 
 - Live SENAI 2024 - Oficina 01: O universo da inovação, as indústrias e você!
 
+## Terça - SocioProfissional - Aula 03 - Relacionamento Interpessoal
+
 ## Trabalho em Equipe
 - O que é trabalho em equipe?
     > - Colaboração e Comunicação: O trabalho em equipe requer uma comunicação clara e aberta entre os membros da esquipe.
@@ -17,7 +19,7 @@
     > - Comunicação Efetiva: O relacionamento interpessoal envolve a habilidade de comunicar ideias, pensamentos, sentimentos e necessidade de maneira clara, respeitosa e assertiva.
     > - Empatia e Compreensão: É essencial ter empatia e compreensão em relacionamentos interpessoais. Isso significa ser capaz de entender e compartilhar os sentimentos de perspectivas dos outros, reconhendo suas experiências e pontos de vista.
     > - Respeito e Confiança: Relacionamentos interpessoais saúdaveis são beaseados no respeito mútuo e na confiança.
-    > - 
+    > - Colaboração e Trabalho em Equipe: O relacionamento interpessoal é fundamental para o sucesso do trabalho em equipe e colaboração.
 
 ## Atividades da aula
 
