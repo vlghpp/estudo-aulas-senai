@@ -20,6 +20,7 @@
     > - Empatia e Compreensão: É essencial ter empatia e compreensão em relacionamentos interpessoais. Isso significa ser capaz de entender e compartilhar os sentimentos de perspectivas dos outros, reconhendo suas experiências e pontos de vista.
     > - Respeito e Confiança: Relacionamentos interpessoais saúdaveis são beaseados no respeito mútuo e na confiança.
     > - Colaboração e Trabalho em Equipe: O relacionamento interpessoal é fundamental para o sucesso do trabalho em equipe e colaboração.
+    > - Desenvolvimento de Relacionamento Duradouros: Relacionamentos interpessoais bem-sucedidos são cultivados ao longo do tempo por meio do investimento contínuo em conexões significativas e genuinas.
 
 ## Atividades da aula
 
