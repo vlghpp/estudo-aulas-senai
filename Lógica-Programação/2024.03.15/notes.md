@@ -18,6 +18,7 @@
 
      ```
         text-align: center; -> Centraliza o que estiver na tag ou classe ou id informado
-        height: 'tamanho desejado' -> Informa o tamanho de uma imagem, de um paragráfo, etc.
+        height: 'tamanho desejado' -> Informa o tamanho de uma imagem, de
+         um paragráfo, etc.
         width: 'tamanho desejado' - Informa a largura de uma imagem, de um paragráfo, etc. 
      ```
