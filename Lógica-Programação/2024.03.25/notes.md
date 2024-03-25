@@ -4,7 +4,6 @@
 
 - Primeiro passo para criar um um script em JavaScript para ligar com sua página é, dentro do <body> colocar um <script src="NOME DO SEU ARQUIVO">, desta forma ele encontra o seu script.
 - JavaScript funciona de forma top down, ou seja, ele vai executar primero todos comandos de cima até chegar ao fim.
-- 
 
 ### Comandos Javascript
 
