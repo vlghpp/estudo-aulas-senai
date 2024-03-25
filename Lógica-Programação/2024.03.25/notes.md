@@ -10,4 +10,3 @@
     - <script src=""> -> Para criar uma ligação entre o html e o JavaScript.
     - alert() -> Para aparecer uma caixa de mensagem na tela do html. 
     - 
-``
