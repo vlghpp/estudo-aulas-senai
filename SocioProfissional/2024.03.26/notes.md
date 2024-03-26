@@ -29,7 +29,7 @@
     > - Startups Tecnológicas 
     > - Empresas Tradicionais
     > - Franquias
-    > - 
+    > - Empreendedorismo Social
 ### Atividades do dia
 
 - Fazer um mandala do empreendedor
