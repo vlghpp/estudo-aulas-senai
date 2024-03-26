@@ -49,3 +49,6 @@
 
 - Fazer um mandala do empreendedor
 - Quais os grandes empreendedores que você conhece.
+    > - FOTO DA PESSOA
+    > - EM QUE ESSA PESSOA EMPREENDE, PORQUE É CONSIDERADA UM GRANDE EMPREENDEDOR
+    > - PORQUE ESCOLHEMOS ESSA PESSOA
