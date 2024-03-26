@@ -1,6 +1,6 @@
 # Aula 26/03/2024
 
-## Terça - SocioProfissional - Aula 04 Empreendorismo
+## Terça - SocioProfissional - Aula 04 Empreendedorismo
 
 ### O que é empreendedorismo ?
 
