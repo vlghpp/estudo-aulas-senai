@@ -30,6 +30,7 @@
     > - Empresas Tradicionais
     > - Franquias
     > - Empreendedorismo Social
+    > - E-commerce (Comércio Eletrônico)
 ### Atividades do dia
 
 - Fazer um mandala do empreendedor
