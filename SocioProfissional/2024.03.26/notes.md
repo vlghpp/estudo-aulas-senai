@@ -32,10 +32,20 @@
     > - Empreendedorismo Social
     > - E-commerce (Comércio Eletrônico)
     > - Freelancing e Consultoria
-    > - Licenciamento e Propriedade Intelectual
+    > - Licenciamento e Propriedade Intelectual (Royaltes)
+    > - Agricultura e Agronegócio
+    > - Empreendedorismo Online (Diferente de E-commerce)
+    > - Microempreendedorismo
+    > - Inovação Corporativa
 
-
+- Cases de Sucesso
+    > - Bill Gates (Microsoft)
+    > - Steve Jobs (Apple)
+    > - Elon Musk (Paypal, Tesla)
+    > - Silvio Santos (Trazer conteudos de fora do país para o Brasil, SBT)
+    > - Luiza Helena Trajano (Magalu, Magazine Luiza)
 
 ### Atividades do dia
 
 - Fazer um mandala do empreendedor
+- Quais os grandes empreendedores que você conhece.
