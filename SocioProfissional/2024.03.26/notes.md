@@ -31,6 +31,11 @@
     > - Franquias
     > - Empreendedorismo Social
     > - E-commerce (Comércio Eletrônico)
+    > - Freelancing e Consultoria
+    > - Licenciamento e Propriedade Intelectual
+
+
+
 ### Atividades do dia
 
 - Fazer um mandala do empreendedor
