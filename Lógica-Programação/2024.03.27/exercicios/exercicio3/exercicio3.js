@@ -2,7 +2,7 @@ let nota1 = 9
 let nota2 = 2
 let nota3 = 4
 
-let media = (9 + 9 + 4)/3
+let media = (nota1 + nota2 + nota3)/3
 
 if(media >= 7){
     console.log("Aprovado")
