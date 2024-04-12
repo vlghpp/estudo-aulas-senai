@@ -27,5 +27,14 @@
 
 - Iterativo: Essa técnica de desenvolvimento representa entregas em ciclos curtos. Geralmente desenvolvendo parte do software e vai melhorando com novas versões ao longo do tempo.
 
+### Metodologias Ágeis
 
+- Scrum: Essa metodologia é a mais difundida e usada para desenvolvimento de software.E Essa técnica consiste em entregas contínuas de duração entre 2-4 semanas
+    > - Papéis:  Possui 3 cargos fundamentais no Scrum, são eles: o Product Owner, Scrum Master e Scrum Team(Developers)
+    > - Eventos: Sprint (2-4 semanas), Planning, Daily, Sprint Review, Sprint Retrospective
+    > - Artefatos: Product Backlog, Sprint Backlog e Product Increment
 
+- eXtreme Programming (XP): Essa metodologia tem como objetivos o TDD e programação em pares. 
+    > - TDD -> Test Drive Development (desenvolvimento dirigido a testes) realiza um teste primeiro, depois realiza a construção do sistema. Como asssim? Vai construir primeiro o teste, dai ele va falhar. Exemplo: Contruindo uma calculadora para somar 1 + 2, mas vai falhar pois n tem código. Ai você cria o código, e então o próximo teste é verificar o resultado, como não tem um código para verificar vai falhar, então você vai e cria a lógica para mostrar
+
+-
