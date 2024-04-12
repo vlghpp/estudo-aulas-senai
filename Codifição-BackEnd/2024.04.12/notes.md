@@ -36,7 +36,17 @@
 
 - eXtreme Programming (XP): Essa metodologia tem como objetivos o TDD e programação em pares. 
     > - TDD -> Test Drive Development (desenvolvimento dirigido a testes) realiza um teste primeiro, depois realiza a construção do sistema. Como asssim? Vai construir primeiro o teste, dai ele va falhar. Exemplo: Contruindo uma calculadora para somar 1 + 2, mas vai falhar pois n tem código. Ai você cria o código, e então o próximo teste é verificar o resultado, como não tem um código para verificar vai falhar, então você vai e cria a lógica para mostrar
+    > - Valores : Comunicação, simplicidade, feedback, coragem e respeito
+    > - Princípios: Feedback rápido, presumir simplicidade, abraçar mudanças, trabalho de alta qualidade, pequenos passos, melhoria, diversidade e reflexão.
+    > - Práticas: Cliente presente, Stand Up Meeting, Programação em par, Testes constantes, Refatoração, Código coletivo, integração continua, entre outras.
+        >- - Programação em Par: A programação em par é uma técnica de desenvolvimento de software ágil em que dois programadores trabalham juntos em uma estação de trabalho. Um deles, o "piloto", escreve o código, enquanto o outro, chamado de "co-piloto", analisa cada linha do código. Os dois programadores geralmente trocam de papel frequentemente.
+
+- Kanban: O kanban o ponto de vista de cada autor pode ser considerado como uma metodologia ou como um framework auxiliar no desenvolvimento de sistemas.
 
 ### Atividades do dia
 
 - Foi passa um vídeo para o esclarecimento do Scrum -> Srum - Aprenda Scrum em 9 minutos.
+
+- Atividade em Grupo:
+    > - Pegue um card e duplique ele. Insira o nome do grupo
+    > - Realizar uma pesquisa sobre os pontos dos cards e crie uma apresentação sobre cada um dos pontos
