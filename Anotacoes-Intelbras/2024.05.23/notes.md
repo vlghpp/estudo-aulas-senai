@@ -92,3 +92,4 @@ Ou também pode utilizar a função enumerate() que retorna o elemento e a posi�
 
 Desta forma tem o acesso a posicao e a fruta do índice.
 
+## Dicionarios Python
