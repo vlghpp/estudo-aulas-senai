@@ -19,6 +19,16 @@ form chá import bebida -> Importará apenas o objeto chá da biblioteca bebida,
 
     É possivel inserir formatações com o __.format__, como no javascript utilizando o template string
 
+    ```
+        lanche = ('Haburger', 'Suco', 'Pizza', 'Pudim')
+
+        for elemento in lanche:
+            print(f'Eu vou comer {elemento}')
+    
+    ```
+
+    Desta forma, com o (f'') é possivel citar uma váriavel em uma string, igual o template string.
+
 ### Fatiamento
 
     ```
@@ -53,3 +63,32 @@ form chá import bebida -> Importará apenas o objeto chá da biblioteca bebida,
     Desta forma ele trocará a palavra Abacaxi por Mamão
 
 ## Tuplas Python
+
+Tuplas em Python são como listas (arrays), mas são imutáveis, o que significa que um elemento da tupla não pode ser alterado durante a execução do programa.
+
+```
+    lanche = ('Abacaxi', 'Maça', 'Jaca', 'Morango')
+    for fruta in lanche:
+        print(f'Vou comer {fruta}, agora!')
+```
+
+Desta forma é possível mostrar todas as frutas da tupla, mas tem uma outra forma mais composta para ver os elementos da tupla, ou de uma lista (array)
+
+```
+    lanche = ('Abacaxi', 'Maça', 'Jaca', 'Morango')
+    for fruta in range(0, len(lanche)):
+        print(f'Vou comer {lanche[fruta]}, agora!')
+```
+
+Desta forma o fruta vira um contador, pois está dizendo para o for que ele vai começar em 0 e terminar no tamanho do array. E então o fruta é utilizado como índice para encontrar os lanches da tupla.
+
+Ou também pode utilizar a função enumerate() que retorna o elemento e a posição do elemento:
+
+```
+    lanche = ('Abacaxi', 'Maça', 'Jaca', 'Morango')
+    for posicao, fruta in enumerate(lanche):
+        print(f'Eu vou comer {fruta} na posição {posicao})
+```
+
+Desta forma tem o acesso a posicao e a fruta do índice.
+
