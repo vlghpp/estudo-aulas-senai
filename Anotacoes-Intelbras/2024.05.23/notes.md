@@ -92,4 +92,138 @@ Ou também pode utilizar a função enumerate() que retorna o elemento e a posi�
 
 Desta forma tem o acesso a posicao e a fruta do índice.
 
+
+# Dia 28/05/2024
+
+## Comentário em Python
+
+Para adicionar comentários de uma linha basta:
+```
+    # Adicionar um hashtag
+```
+
+Para comentários de mais de uma linha basta:
+
+```
+    """
+        Adicionar
+        3
+        Aspas duplas
+    """
+```
+
 ## Dicionarios Python
+
+Dicionarios são como objetos no JavaScript, mantém o mesmo padrão
+
+```
+    dicionario = {
+        'maquina' = "Injetora",
+        'projeto' = "AntiErros", 
+        'ano' = 2024
+    }
+```
+
+Também pode-se identificar como chave e valor, onde as __chaves__ são -> 'maquina', 'projeto' e 'ano'; e os __valores__ são "Injetora", "AntiErros" e 2024.
+
+- As chaves podem ser acessadas pelo comando dicionario.keys(), onde retornará todas as chaves
+- Os valoers podem ser acessadas pelo comando dicionario.values(), onde retornará todos os valores
+- Também podem ser acessadas ambas, pelo comando dicionario.items(), onde retornará ambas
+
+### Exemplo utilizando dicionarios em laços
+
+Podem ser acessados os items, chaves e valores em loops:
+
+
+```
+    for k, v in dicionario.items():
+        print(f'A chave {k} tem o valor {v}')
+```
+
+Desta forma é possivel verificar se uma chave tem um valor específico.
+
+
+### Dicionários que pode acabar dando erro
+
+Existe uma limitação quando for citar uma key de um dicionario dentro de um print formatado
+
+```
+    print(f'A maquina {dicionario['maquina']} é do projeto {dicionario['projeto']}')
+```
+
+Desta forma vai dar erro, pois no dicionario não pode ser chamado com aspas simples dentro de aspas simples, a forma correta de acessar o valor de certa key neste caso é com aspas duplas
+
+```
+    print(f'A maquina {dicionario["maquina"]} é do projeto {dicionario["projeto"]})
+```
+
+### Apagando uma key especifica de um dicionário
+
+Para apagar uma key específica de um dicionario basta:
+
+```
+    del dicionario['ano']
+```
+
+## Módulos e Pacotes
+
+Módulos são criar um arquivo py a parte para as funções uteis por exemplo, assim o código principal não contém um código verboso com muito código.
+
+```
+    ### arquivo uteis.py
+
+    def somar(n1, n2):
+        return n1 + n2
+
+```
+
+```
+    ### arquivo main.py
+
+    import uteis
+
+    n1 = int(input("Digite o primeiro valor: "))
+    n2 = int(input("Digite o segundo valor: "))
+    print(f'A soma entre {n1} e {n2} é {uteis.somar(n1, n2)}') ### usando utes.somar tem acesso a função dentro do arquivo uteis.py
+```
+
+Pacotes são um conjunto de módulos, onde tem uma pasta de uteis, e dentro da pasta de uteis são subdivididas em varias pastas por especifidade, então você tem uma pasta chamada operações e dentro dessa pasta tem arquivos: somar.py, diminuir.py, por exemplo e assim vai
+
+```
+    uteis >
+            - Numeros > 
+                    - somar.py
+                    - diminuir.py
+                    - dividir.py
+            - Formatar > 
+                    - formatar_string.py
+                    - formatar_blabla.py
+```
+
+## Tratamento de Erros e Exeções 
+
+Para o tratamento de Erros e Exeções é possível utilizar o comando try e except:
+
+```
+    try:
+        operação
+    except:
+        falhou
+    else:   ### OPCIONAL
+        caso de certo a operação
+    finally:    ### OPCIONAL
+        executará o código independente se der falha ou não
+```
+
+Ou seja, neste caso ele vai executar o try(tente do ingles), caso dê algum erro neste código ele executará o except, mas caso dê certo o try ele executará o else. E também tem o finally que executará independete se der erro ou não.
+
+- Também é possível tratar o erro pelo motivo da exeção
+
+```
+    try:
+        operação
+    except ValueError:
+        Caso tenha um problema com a tipagem que foi inserida pelo usuário, caso aconteça ele executará o código que está aqui dentro
+    except ZeroDivisionError:
+        Quando tem uma tentativa de divisão por zero ele executará o código aqui dentro
+```
