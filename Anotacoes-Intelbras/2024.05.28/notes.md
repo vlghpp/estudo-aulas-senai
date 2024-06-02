@@ -122,3 +122,68 @@ O encapsulamento é uma forma de controlar o acesso aos dados de uma classe e pr
 ```
 
 Neste exemplo é criado uma classe para simular um banco de dados, então os dados que estão ali não podem ser acessados de fora.
+
+## Associação entre classes
+
+A associação entre classes é quando você vai conectar uma outra script na main.py, por exemplo, 
+
+Fazendo uma implementação de uma classe de um Escritor, onde o mesmo tem suas ferramentas, então tem outras classes neste caso, como: Caneta e Maquina de escrever:
+
+```
+    ## Arquivo classes.py
+
+    class Escritor:
+        def __init__(self, nome):
+            self.__nome = nome
+            self.__ferramenta = none
+        
+        @property
+        def nome(self):
+            return self.__nome
+
+        @property
+        def ferramenta(self):
+            return self.__ferramenta
+        
+        @ferramenta.setter
+        def ferrametenta(self, ferramenta):
+            self.__ferramenta = ferramenta
+
+    class Caneta:
+        def __init__(self, marca):
+            self.__marca = marca
+
+        @property
+        def marca(self):
+            return self.__marca
+
+        def escrever(self):
+            print('A CANETA está escrevendo...')
+
+    class MaquinaDeEscrever:
+        def escrever(self):
+            print('A MAQUINA está escrevendo...')
+```
+
+Agora no arquivo main.py, vamos fazer a associação entre classes, onde é possível definir com o Setter da classe Escritor > o atributo ferramenta, com a classe Caneta e acessar sua função de escrever.
+
+```
+    from classes import Escritor
+    from classes import Caneta
+    from classes import MaquinaDeEscrever
+
+    escritor = Escritor('Henrique')
+    caneta = Caneta('Bic')
+    maquina = MaquinaDeEscrever()
+
+    escritor.ferramenta = caneta
+
+    escritor.ferramenta.escrever() ## Vai printar: A CANETA está escrevendo...
+
+    # O mesmo se aplica caso fizer com a máquina
+
+    escritor.ferramenta = maquina
+
+    escritor.ferramenta.escrever()
+
+```
