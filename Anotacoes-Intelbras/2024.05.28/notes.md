@@ -26,6 +26,9 @@ Note que:
     - Quando é instânciada a __pessoa1__ ela é criada apartir do método constructor (__init__)  
     - Já a pessoa2 é instânciada apartir do método 'pro_ano_nascimento', e dentro desse método utilizando o cls é possível instânciar um  novo objeto dentro da própria classe, isto é __*metodo de classes*__
 
+    
+- `Contém exemplo prático e executável em: Exemplos dados na documentação > Métodos de Classes`
+
 ## Métodos Staticos
 
 Métodos Staticos são aqueles que agem como uma função normal, mas quando é necessário uma função que não vai mexer com atributos da instância e nem com a classe é chamada de statico
@@ -52,6 +55,8 @@ Métodos Staticos são aqueles que agem como uma função normal, mas quando é 
     pessoa1 = Pessoa('Henrique', 19)
     pessoa2 = Pessoa.por_ano_nascimento('João', 1990)
 ```
+
+- `Contém exemplo prático e executável em: Exemplos dados na documentação > Métodos Staticos`
 
 ## Getters e Setters
 
@@ -85,6 +90,8 @@ Considerações:
             self.preco = novo_preco
 
 ```
+
+- `Contém exemplo prático e executável em: Exemplos dados na documentação > Getters e Setters`
 
 ## Encapsulamento
 
@@ -122,6 +129,10 @@ O encapsulamento é uma forma de controlar o acesso aos dados de uma classe e pr
 ```
 
 Neste exemplo é criado uma classe para simular um banco de dados, então os dados que estão ali não podem ser acessados de fora.
+
+
+
+- `Contém exemplo prático e executável em: Exemplos dados na documentação > Encapsulamento`
 
 ## Relação entre classes - Associação
 
@@ -188,6 +199,9 @@ Agora no arquivo main.py, vamos fazer a associação entre classes, onde é poss
 
 ```
 
+
+- `Contém exemplo prático e executável em: Exemplos dados na documentação > Associação`
+
 ## Relação entre classes - Agregação
 
 Sobre a agregação, de maneira similar ao conteúdo escrito anteriormente em `Relação entre classes - Associação`. 
@@ -201,3 +215,12 @@ Caracteristicas:
 - __Independência__: Na agregação, os objetos componentes podem existir independentemente uns dos outros e do objeto agregador. Por exemplo, um livro pode existir sem estar associado a uma biblioteca específica.
 
 - __Compartilhamento__: Os componentes podem ser compartilhados entre vários objetos agregadores. Por exemplo, vários objetos Biblioteca podem conter o mesmo livro.
+
+
+- `Contém exemplo prático e executável em: Exemplos dados na documentação > Agregação`
+
+## Relação entre classes - Composição
+
+Sobre a composição, ela estabelece uma relação de 'sobrevivência' entre classes, onde uma classe principal 'é dono' de outra(s). Ou seja, uma classe Carro, contém uma classe Motor, então, se este carro for vendido vão ambas as classes juntos, ou até mesmo vendo de uma forma mais programática, se esta classe Carro for apagada/excluida a classe Motor vai junto, pois está ligada e subjulgada a classe Carro.
+
+- `Contém exemplo prático e executável em: Exemplos dados na documentação > Composição`
