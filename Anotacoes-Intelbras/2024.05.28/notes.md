@@ -123,9 +123,9 @@ O encapsulamento é uma forma de controlar o acesso aos dados de uma classe e pr
 
 Neste exemplo é criado uma classe para simular um banco de dados, então os dados que estão ali não podem ser acessados de fora.
 
-## Associação entre classes
+## Relação entre classes - Associação
 
-A associação entre classes é quando você vai conectar uma outra script na main.py, por exemplo, 
+A associação entre classes é quando você utiliza de uma classe em outra, por exemplo, uma classe Escritor utiliza uma classe Caneta. `Mas nenhuma delas dependem entre si para existir.`
 
 Fazendo uma implementação de uma classe de um Escritor, onde o mesmo tem suas ferramentas, então tem outras classes neste caso, como: Caneta e Maquina de escrever:
 
@@ -187,3 +187,17 @@ Agora no arquivo main.py, vamos fazer a associação entre classes, onde é poss
     escritor.ferramenta.escrever()
 
 ```
+
+## Relação entre classes - Agregação
+
+Sobre a agregação, de maneira similar ao conteúdo escrito anteriormente em `Relação entre classes - Associação`. 
+
+A agregação funciona de forma que, uma classe utiliza de outra, mas as duas podem existir independende de uma ou outra. Exemplos:
+
+- Exemplo: Imagine um sistema de biblioteca. Temos uma classe Biblioteca e uma classe Livro. A relação entre essas classes pode ser modelada como uma agregação. Cada objeto da classe Biblioteca contém uma coleção de objetos da classe Livro. Os livros são os componentes que fazem parte da biblioteca.
+    > - Porém os Livros podem existir sem estar de fato em uma biblioteca
+
+Caracteristicas: 
+- __Independência__: Na agregação, os objetos componentes podem existir independentemente uns dos outros e do objeto agregador. Por exemplo, um livro pode existir sem estar associado a uma biblioteca específica.
+
+- __Compartilhamento__: Os componentes podem ser compartilhados entre vários objetos agregadores. Por exemplo, vários objetos Biblioteca podem conter o mesmo livro.
