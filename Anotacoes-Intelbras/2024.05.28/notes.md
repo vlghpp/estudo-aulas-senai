@@ -224,3 +224,33 @@ Caracteristicas:
 Sobre a composição, ela estabelece uma relação de 'sobrevivência' entre classes, onde uma classe principal 'é dono' de outra(s). Ou seja, uma classe Carro, contém uma classe Motor, então, se este carro for vendido vão ambas as classes juntos, ou até mesmo vendo de uma forma mais programática, se esta classe Carro for apagada/excluida a classe Motor vai junto, pois está ligada e subjulgada a classe Carro.
 
 - `Contém exemplo prático e executável em: Exemplos dados na documentação > Composição`
+
+
+## Herança Simples
+
+Resumo até agora sobre relações entre classes:
+
+- Associação -> Usa onde um objeto usa outro objeto.
+- Agregação -> Onde um objeto tem outro objeto como parte de sí, mas independente.
+- Composição -> Onde um objeto é dono de outro objeto(s) e um não existe sem o outro.
+
+E agora, vamos ver sobre herança onde um objeto __É__ outro objeto
+
+No exemplo prático pode-se notar que a classe:
+
+```
+    class Pessoa:
+        pass
+
+    class Cliente(Pessoa):
+        pass
+    
+    class Aluno(Pessoa):
+        pass
+```
+
+Indentificamos as classes Cliente e Aluno como subclasses de Pessoa, pois se fosse fazer uma classe pra cada uma delas o construtor seria bem próximo, por exemplo, ambas tendo nome, idade e id. Então o conceito de Herança parte dai, fazemos uma classe que engloba ambos Cliente quanto Aluno que seria a classe Pessoa. 
+
+Do conceito de Herança agora, suas subclasses vão herdar __TUDO__ que tiver em Pessoa, mas caso tenham funções específicas em Cliente ou Aluno, uma não pode acessar a outra, mas ambas podem acessar Pessoa. (Fica mais claro no exemplo prático)
+
+- `Contém exemplo prático e executável em: Exemplos dados na documentação > Herança`
