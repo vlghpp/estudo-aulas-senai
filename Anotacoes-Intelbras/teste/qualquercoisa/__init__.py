@@ -1,0 +1,1 @@
+from .outraclasse import OutraTeste as normal
