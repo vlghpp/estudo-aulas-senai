@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'arquivo.ui'
+## Form generated from reading UI file 'arquivoZUdJyw.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.7.1
+## Created by: Qt User Interface Compiler version 6.7.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -15,102 +15,111 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QFont, QFontDatabase, QGradient, QIcon,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide6.QtWidgets import (QApplication, QGridLayout, QHBoxLayout, QLabel,
-    QMainWindow, QPushButton, QSizePolicy, QWidget)
+from PySide6.QtWidgets import (QApplication, QHBoxLayout, QLabel, QMainWindow,
+    QPushButton, QSizePolicy, QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(932, 588)
-        MainWindow.setStyleSheet(u"background-color: lightgrey;")
+        MainWindow.resize(800, 460)
+        font = QFont()
+        font.setFamilies([u"NimbusSanL"])
+        MainWindow.setFont(font)
+        MainWindow.setStyleSheet(u"background-color: #D9D9D9;")
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
-        self.gridLayout = QGridLayout(self.centralwidget)
-        self.gridLayout.setObjectName(u"gridLayout")
-        self.label_3 = QLabel(self.centralwidget)
-        self.label_3.setObjectName(u"label_3")
-        font = QFont()
-        font.setFamilies([u"HoloLens MDL2 Assets"])
-        font.setPointSize(14)
-        self.label_3.setFont(font)
-        self.label_3.setStyleSheet(u"background-color: #FFF; color:black;")
-        self.label_3.setAlignment(Qt.AlignmentFlag.AlignCenter)
-
-        self.gridLayout.addWidget(self.label_3, 2, 0, 8, 2)
-
-        self.label_4 = QLabel(self.centralwidget)
-        self.label_4.setObjectName(u"label_4")
-        font1 = QFont()
-        font1.setPointSize(18)
-        font1.setBold(True)
-        self.label_4.setFont(font1)
-        self.label_4.setStyleSheet(u"background-color:#5d82e9; color: white;")
-        self.label_4.setAlignment(Qt.AlignmentFlag.AlignCenter)
-
-        self.gridLayout.addWidget(self.label_4, 10, 0, 1, 3)
-
-        self.button_change_tolerance = QPushButton(self.centralwidget)
-        self.button_change_tolerance.setObjectName(u"button_change_tolerance")
-        font2 = QFont()
-        font2.setFamilies([u"HoloLens MDL2 Assets"])
-        font2.setPointSize(12)
-        font2.setBold(True)
-        font2.setItalic(False)
-        self.button_change_tolerance.setFont(font2)
-        self.button_change_tolerance.setStyleSheet(u"background-color:#00C040; color:white; height: 75px; font-weight: bold; ")
-
-        self.gridLayout.addWidget(self.button_change_tolerance, 5, 2, 1, 1)
-
+        sizePolicy = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.centralwidget.sizePolicy().hasHeightForWidth())
+        self.centralwidget.setSizePolicy(sizePolicy)
         self.label = QLabel(self.centralwidget)
         self.label.setObjectName(u"label")
+        self.label.setGeometry(QRect(0, 20, 800, 41))
+        self.label.setMaximumSize(QSize(800, 100))
+        font1 = QFont()
+        font1.setFamilies([u"Segoe UI"])
+        font1.setPointSize(16)
+        font1.setBold(True)
         self.label.setFont(font1)
-        self.label.setStyleSheet(u"background-color:#008000; color: white;")
+        self.label.setStyleSheet(u"background-color: #007A39; color: white;")
         self.label.setAlignment(Qt.AlignmentFlag.AlignCenter)
-
-        self.gridLayout.addWidget(self.label, 0, 0, 2, 3)
-
-        self.button_turn_off_buzzer = QPushButton(self.centralwidget)
-        self.button_turn_off_buzzer.setObjectName(u"button_turn_off_buzzer")
-        font3 = QFont()
-        font3.setFamilies([u"HoloLens MDL2 Assets"])
-        font3.setPointSize(12)
-        font3.setBold(True)
-        self.button_turn_off_buzzer.setFont(font3)
-        self.button_turn_off_buzzer.setStyleSheet(u"background-color: rgb(177, 11, 11); color: white; font-weight: bold; height: 75px;")
-
-        self.gridLayout.addWidget(self.button_turn_off_buzzer, 7, 2, 1, 1)
-
-        self.widget = QWidget(self.centralwidget)
-        self.widget.setObjectName(u"widget")
-        self.horizontalLayout = QHBoxLayout(self.widget)
+        self.horizontalLayoutWidget = QWidget(self.centralwidget)
+        self.horizontalLayoutWidget.setObjectName(u"horizontalLayoutWidget")
+        self.horizontalLayoutWidget.setGeometry(QRect(20, 80, 761, 80))
+        self.horizontalLayout = QHBoxLayout(self.horizontalLayoutWidget)
         self.horizontalLayout.setObjectName(u"horizontalLayout")
-        self.label_of_errors = QLabel(self.widget)
-        self.label_of_errors.setObjectName(u"label_of_errors")
-        font4 = QFont()
-        font4.setPointSize(12)
-        self.label_of_errors.setFont(font4)
-        self.label_of_errors.setStyleSheet(u"background-color: white")
-        self.label_of_errors.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
+        self.button_model_a = QPushButton(self.horizontalLayoutWidget)
+        self.button_model_a.setObjectName(u"button_model_a")
+        self.button_model_a.setMaximumSize(QSize(400, 75))
+        font2 = QFont()
+        font2.setPointSize(12)
+        font2.setBold(True)
+        self.button_model_a.setFont(font2)
+        self.button_model_a.setStyleSheet(u"background-color: #008000; color: white;")
 
-        self.horizontalLayout.addWidget(self.label_of_errors)
+        self.horizontalLayout.addWidget(self.button_model_a)
 
-        self.label_error_counter = QLabel(self.widget)
-        self.label_error_counter.setObjectName(u"label_error_counter")
-        font5 = QFont()
-        font5.setFamilies([u"Ubuntu"])
-        font5.setPointSize(17)
-        font5.setBold(False)
-        font5.setItalic(False)
-        self.label_error_counter.setFont(font5)
-        self.label_error_counter.setStyleSheet(u"background-color: white;color:rgb(224, 27, 36); font: 17pt \"Ubuntu\";")
-        self.label_error_counter.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.button_model_b = QPushButton(self.horizontalLayoutWidget)
+        self.button_model_b.setObjectName(u"button_model_b")
+        self.button_model_b.setMaximumSize(QSize(400, 75))
+        self.button_model_b.setFont(font2)
+        self.button_model_b.setStyleSheet(u"background-color: #008000; color: white;")
 
-        self.horizontalLayout.addWidget(self.label_error_counter)
+        self.horizontalLayout.addWidget(self.button_model_b)
 
+        self.horizontalLayoutWidget_2 = QWidget(self.centralwidget)
+        self.horizontalLayoutWidget_2.setObjectName(u"horizontalLayoutWidget_2")
+        self.horizontalLayoutWidget_2.setGeometry(QRect(20, 200, 761, 80))
+        self.horizontalLayout_2 = QHBoxLayout(self.horizontalLayoutWidget_2)
+        self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
+        self.horizontalLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.button_model_c = QPushButton(self.horizontalLayoutWidget_2)
+        self.button_model_c.setObjectName(u"button_model_c")
+        self.button_model_c.setMaximumSize(QSize(400, 75))
+        self.button_model_c.setFont(font2)
+        self.button_model_c.setStyleSheet(u"background-color: #008000; color: white;")
 
-        self.gridLayout.addWidget(self.widget, 2, 2, 1, 1)
+        self.horizontalLayout_2.addWidget(self.button_model_c)
 
+        self.button_model_d = QPushButton(self.horizontalLayoutWidget_2)
+        self.button_model_d.setObjectName(u"button_model_d")
+        self.button_model_d.setMaximumSize(QSize(400, 75))
+        self.button_model_d.setFont(font2)
+        self.button_model_d.setStyleSheet(u"background-color: #008000; color: white;")
+
+        self.horizontalLayout_2.addWidget(self.button_model_d)
+
+        self.horizontalLayoutWidget_3 = QWidget(self.centralwidget)
+        self.horizontalLayoutWidget_3.setObjectName(u"horizontalLayoutWidget_3")
+        self.horizontalLayoutWidget_3.setGeometry(QRect(20, 330, 761, 80))
+        self.horizontalLayout_3 = QHBoxLayout(self.horizontalLayoutWidget_3)
+        self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
+        self.horizontalLayout_3.setContentsMargins(0, 0, 0, 0)
+        self.button_model_e = QPushButton(self.horizontalLayoutWidget_3)
+        self.button_model_e.setObjectName(u"button_model_e")
+        self.button_model_e.setMaximumSize(QSize(400, 75))
+        self.button_model_e.setFont(font2)
+        self.button_model_e.setStyleSheet(u"background-color: #008000; color: white;")
+
+        self.horizontalLayout_3.addWidget(self.button_model_e)
+
+        self.button_model_f = QPushButton(self.horizontalLayoutWidget_3)
+        self.button_model_f.setObjectName(u"button_model_f")
+        self.button_model_f.setMaximumSize(QSize(400, 75))
+        self.button_model_f.setFont(font2)
+        self.button_model_f.setStyleSheet(u"background-color: #008000; color: white;")
+
+        self.horizontalLayout_3.addWidget(self.button_model_f)
+
+        self.label_2 = QLabel(self.centralwidget)
+        self.label_2.setObjectName(u"label_2")
+        self.label_2.setGeometry(QRect(10, 10, 121, 61))
+        self.label_2.setFont(font2)
+        self.label_2.setStyleSheet(u"background-color: #00A336; color: white; border: 1px solid grey;")
+        self.label_2.setAlignment(Qt.AlignmentFlag.AlignCenter)
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -120,13 +129,13 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
-        self.label_3.setText(QCoreApplication.translate("MainWindow", u"VIDEO", None))
-        self.label_4.setText(QCoreApplication.translate("MainWindow", u" CHECAGEM DO PRODUTO -  XXXXXXXX", None))
-        self.button_change_tolerance.setText(QCoreApplication.translate("MainWindow", u"Alterar toler\u00e2ncia de erros", None))
-        self.label.setText(QCoreApplication.translate("MainWindow", u"CHECAGEM AUTOMATIZADA - ESTAMPA", None))
-        self.button_turn_off_buzzer.setText(QCoreApplication.translate("MainWindow", u"Desligar Buzzer", None))
-        self.label_of_errors.setText(QCoreApplication.translate("MainWindow", u"Contador \n"
-" de erros:", None))
-        self.label_error_counter.setText(QCoreApplication.translate("MainWindow", u"0/5", None))
+        self.label.setText(QCoreApplication.translate("MainWindow", u"ESCOLHA O MODELO SWITCH PARA O TESTE", None))
+        self.button_model_a.setText(QCoreApplication.translate("MainWindow", u"Toggle Switch", None))
+        self.button_model_b.setText(QCoreApplication.translate("MainWindow", u"Lever Switch", None))
+        self.button_model_c.setText(QCoreApplication.translate("MainWindow", u"Key Switch", None))
+        self.button_model_d.setText(QCoreApplication.translate("MainWindow", u"Push Button Switch", None))
+        self.button_model_e.setText(QCoreApplication.translate("MainWindow", u"Dual In-line Package Switch", None))
+        self.button_model_f.setText(QCoreApplication.translate("MainWindow", u"Reed Switch", None))
+        self.label_2.setText(QCoreApplication.translate("MainWindow", u"INTELBRAS", None))
     # retranslateUi
 
