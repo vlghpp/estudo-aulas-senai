@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'arquivofOuoGl.ui'
+## Form generated from reading UI file 'arquivofsBusO.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.7.2
 ##
@@ -39,9 +39,9 @@ class Ui_MainWindow(object):
         self.label.setGeometry(QRect(0, 20, 800, 41))
         self.label.setMaximumSize(QSize(800, 100))
         font1 = QFont()
-        font1.setFamilies([u"Segoe UI"])
+        font1.setFamilies([u"Helvetica Now Var Micro Medium"])
         font1.setPointSize(16)
-        font1.setBold(True)
+        font1.setBold(False)
         self.label.setFont(font1)
         self.label.setStyleSheet(u"background-color: #007A39; color: white;")
         self.label.setAlignment(Qt.AlignmentFlag.AlignCenter)
@@ -49,6 +49,7 @@ class Ui_MainWindow(object):
         self.label_2.setObjectName(u"label_2")
         self.label_2.setGeometry(QRect(10, 10, 121, 61))
         font2 = QFont()
+        font2.setFamilies([u"Helvetica Now Var Text Black"])
         font2.setPointSize(12)
         font2.setBold(True)
         self.label_2.setFont(font2)
@@ -68,7 +69,11 @@ class Ui_MainWindow(object):
         self.button_model_a = QPushButton(self.widget)
         self.button_model_a.setObjectName(u"button_model_a")
         self.button_model_a.setMaximumSize(QSize(400, 75))
-        self.button_model_a.setFont(font2)
+        font3 = QFont()
+        font3.setFamilies([u"Helvetica Now Var Micro Medium"])
+        font3.setPointSize(12)
+        font3.setBold(False)
+        self.button_model_a.setFont(font3)
         self.button_model_a.setStyleSheet(u"background-color: #008000; color: white;")
 
         self.horizontalLayout.addWidget(self.button_model_a)
@@ -76,7 +81,7 @@ class Ui_MainWindow(object):
         self.button_model_b = QPushButton(self.widget)
         self.button_model_b.setObjectName(u"button_model_b")
         self.button_model_b.setMaximumSize(QSize(400, 75))
-        self.button_model_b.setFont(font2)
+        self.button_model_b.setFont(font3)
         self.button_model_b.setStyleSheet(u"background-color: #008000; color: white;")
 
         self.horizontalLayout.addWidget(self.button_model_b)
@@ -96,7 +101,7 @@ class Ui_MainWindow(object):
         self.button_model_c = QPushButton(self.widget_3)
         self.button_model_c.setObjectName(u"button_model_c")
         self.button_model_c.setMaximumSize(QSize(400, 75))
-        self.button_model_c.setFont(font2)
+        self.button_model_c.setFont(font3)
         self.button_model_c.setStyleSheet(u"background-color: #008000; color: white;")
 
         self.horizontalLayout_2.addWidget(self.button_model_c)
@@ -104,7 +109,11 @@ class Ui_MainWindow(object):
         self.button_model_d = QPushButton(self.widget_3)
         self.button_model_d.setObjectName(u"button_model_d")
         self.button_model_d.setMaximumSize(QSize(400, 75))
-        self.button_model_d.setFont(font2)
+        font4 = QFont()
+        font4.setFamilies([u"Helvetica Now Var Text Medium"])
+        font4.setPointSize(12)
+        font4.setBold(False)
+        self.button_model_d.setFont(font4)
         self.button_model_d.setStyleSheet(u"background-color: #008000; color: white;")
 
         self.horizontalLayout_2.addWidget(self.button_model_d)
@@ -124,7 +133,7 @@ class Ui_MainWindow(object):
         self.button_model_e = QPushButton(self.widget_2)
         self.button_model_e.setObjectName(u"button_model_e")
         self.button_model_e.setMaximumSize(QSize(400, 75))
-        self.button_model_e.setFont(font2)
+        self.button_model_e.setFont(font4)
         self.button_model_e.setStyleSheet(u"background-color: #008000; color: white;")
 
         self.horizontalLayout_3.addWidget(self.button_model_e)
@@ -132,7 +141,7 @@ class Ui_MainWindow(object):
         self.button_model_f = QPushButton(self.widget_2)
         self.button_model_f.setObjectName(u"button_model_f")
         self.button_model_f.setMaximumSize(QSize(400, 75))
-        self.button_model_f.setFont(font2)
+        self.button_model_f.setFont(font3)
         self.button_model_f.setStyleSheet(u"background-color: #008000; color: white;")
 
         self.horizontalLayout_3.addWidget(self.button_model_f)
