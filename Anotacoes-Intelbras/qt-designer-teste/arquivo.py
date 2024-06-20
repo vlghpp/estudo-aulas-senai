@@ -9,19 +9,28 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
         self.setupUi(self)
-        # Aqui você pode conectar os sinais dos botões aos slots (funções) desejados
-        self.button_model_a.clicked.connect(self.show_password_screen)
-        self.button_model_b.clicked.connect(self.show_password_screen)
-        self.button_model_c.clicked.connect(self.show_password_screen)
-        self.button_model_d.clicked.connect(self.show_password_screen)
-        self.button_model_e.clicked.connect(self.show_password_screen)
-        self.button_model_f.clicked.connect(self.show_password_screen)
-        ##self.button_change_tolerance.clicked.connect(self.show_password_screen)
+        # Executa uma função lambda(anônima) em linha, fazendo com que chame a função de mostrar a tela passando o modelo
+        self.button_model_a.clicked.connect(lambda: self.set_model_switch('model_a'))
+        self.button_model_b.clicked.connect(lambda: self.set_model_switch('model_b'))
+        self.button_model_c.clicked.connect(lambda: self.set_model_switch('model_c'))
+        self.button_model_d.clicked.connect(lambda: self.set_model_switch('model_d'))
+        self.button_model_e.clicked.connect(lambda: self.set_model_switch('model_e'))
+        self.button_model_f.clicked.connect(lambda: self.set_model_switch('model_f'))
 
-    def show_password_screen(self):
+    def set_model_switch(self, model_name):
+        if model_name == 'model_a':
+            """
+            Aqui ficaria responsável pela conexão com o arduino, mandando o sinal de qual dos modelos de switch foi escolhido.
+            por exemplo: print("O modelo A foi escolhido!")
+
+            E logo abaixo daria continuação ao código, executando segunda tela com o video
+            """
+            self.show_secundary_screen()
+
+
+    def show_secundary_screen(self):
         self.password_screen = PasswordScreen()
         self.password_screen.show()
-        ## comando para fechar a mainwindow quando abrir a secundary window
         self.close()
 
 if __name__ == "__main__":
