@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'arquivohJyGag.ui'
+## Form generated from reading UI file 'arquivofOuoGl.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.7.2
 ##
@@ -22,7 +22,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(800, 460)
+        MainWindow.resize(800, 480)
         font = QFont()
         font.setFamilies([u"NimbusSanL"])
         MainWindow.setFont(font)
