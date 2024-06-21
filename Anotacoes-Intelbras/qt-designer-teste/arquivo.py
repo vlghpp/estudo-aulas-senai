@@ -25,10 +25,10 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
             E logo abaixo daria continuação ao código, executando segunda tela com o video
             """
-            self.show_secundary_screen()
+            self.show_secondary_screen()
 
 
-    def show_secundary_screen(self):
+    def show_secondary_screen(self):
         self.password_screen = PasswordScreen()
         self.password_screen.show()
         self.close()
