@@ -1,16 +1,20 @@
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
-const isPalindrome = require('./Desafio Professor Ramon/desafio')
-
+const isPalindrome = require('./functions')
+const db = require('./db.json')
 app.use(bodyParser.json())
 
-app.post('/epalindromo', (req, res) => {
-    const resposta = isPalindrome(req.body.palavra)
-    if (resposta === true){
-        res.send("É palindromo")
-    }
-    res.send("Não é palindromo")
+app.get('/produtos', function (req, res){
+    produtos = db.produtos
+    res.json(produtos)
 })
 
-app.listen(4000)
+app.get('/produtos/:id', (req, res) => {
+     const id = req.params.id
+     const produto = db.produtos.find(produto => produto.id == 2)
+     res.json(produto)
+
+}) 
+
+app.listen(8000)
