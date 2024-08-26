@@ -1,4 +1,4 @@
-const db = require('./db.json')
+const db = require('../db.json')
 const { v4: uuidv4 } = require('uuid')
 const fs = require('fs')
 const { log } = require('console')
@@ -19,7 +19,7 @@ const getProduto = async (req, res) => {
 const createProduto = async (req,res) => {
     const dados = req.body
     if(!dados.nome || !dados.preco) {
-        res.status(406).send({error:'Nome e preço deve ser informado'})
+        return res.status(406).send({error:'Nome e preço deve ser informado'})
     }
     const _id = uuidv4()
     dados.id = _id
@@ -29,7 +29,7 @@ const createProduto = async (req,res) => {
             res.status(500).send({error:'erro no servidor'})
         }
     })
-    res.status(204).send()
+    res.status(204).send("Produto cadastrado com sucesso!")
 }
 const updateProduto = async (req,res) => {
     const _id = req.params.id
