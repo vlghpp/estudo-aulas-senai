@@ -49,7 +49,7 @@ const updateProduto = async (req,res) => {
             continue
         }
         produto[dado] = dados[dado]
-
+        res.status(204).send("Produto alterado com sucesso!")
     }
 }
 const deleteProduto = async (req,res) => {

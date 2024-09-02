@@ -33,25 +33,32 @@ const createClientes = async (req,res) => {
     })
     res.status(204).send()
 }
-const updateClientes = async (req,res) => {
+const updateClientes = async (req, res) => {
     const _id = req.params.id
     const dados = req.body
     const lista_clientes = db.clientes
     const cliente = lista_clientes.find(
         (cliente) => cliente.id == _id
-        )
-    if (!cliente || !dados) {
-        res.status(404).send({error:'not found'})
+    )
+    if (!cliente) {
+        return res.status(404).send({ error: 'Cliente não encontrado' })
     }
 
-    for(const dado in dados){
-        if(!(dado in cliente)){
-            console.log('erro: este dado não existe');
-            continue
+    for (const dado in dados) {
+        if (dado in cliente) {
+            cliente[dado] = dados[dado]
+        } else {
+            console.log(`Aviso: o dado "${dado}" não existe no cliente`)
         }
-        cliente[dado] = dados[dado]
     }
-    res.status(204).send("Pessoa alterada com sucesso!")
+
+    fs.writeFile('./db.json', JSON.stringify(db), (err) => {
+        if (err) {
+            return res.status(500).send({ error: 'Erro no servidor' })
+        }
+
+        res.status(200).send({ message: 'Cliente atualizado com sucesso!' })
+    })
 }
 const deleteClientes = async (req,res) => {
     const _id = req.params.id
