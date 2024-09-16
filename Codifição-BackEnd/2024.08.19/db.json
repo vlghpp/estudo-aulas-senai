@@ -171,6 +171,12 @@
             "email": "fulano@gmail.com",
             "senha": "$2a$10$Y5SiQZvTjw5gkoNFjYDnQ.yFwOsZcHDDIoFvo9BGIOr.cmw/UURSi",
             "id": "62ab5691-58b2-4dd7-8dcf-e86f31e901cb"
+        },
+        {
+            "id": "5adba3ce-6215-4525-ba66-eb86ddd4a772",
+            "nome": "henrique update",
+            "email": "douglas@example.com",
+            "senha": "$2a$10$bjTSbZbqyLNXpV5yuCAriu066X2OhwupHwCkTUtTvEabOLLgZaREu"
         }
     ],
     "pedidos": [

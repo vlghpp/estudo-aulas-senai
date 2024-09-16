@@ -27,7 +27,7 @@ const login = async (req, res) => {
                 _id: cliente.id
 
             },
-            'jwt_scret_key',
+            process.env.chave_criptografia,
             { expiresIn: 1000*60*60*24*365}
         )
 
@@ -37,5 +37,10 @@ const login = async (req, res) => {
     }
 }
 
+const logout = async (req, res) => {
+    res.cookie("TOKENAULABE", "noe", expiresIn=5)
+    res.send({message: "O USUÁRIO FEZ LOGOUT"})
+}
 
-module.exports = {login}
+
+module.exports = {login, logout}
