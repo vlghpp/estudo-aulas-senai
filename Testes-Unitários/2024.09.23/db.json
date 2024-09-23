@@ -1,0 +1,215 @@
+{
+    "produtos": [
+        {
+            "id": 3,
+            "nome": "henrique update",
+            "descricao": "Vaso de flores decorativo",
+            "preco": 50,
+            "categoria_id": 3,
+            "imagem": "vaso_flores.jpg"
+        },
+        {
+            "nome": "produto teste",
+            "descricao": "uma descricao qualquer",
+            "preco": 600,
+            "imagem": "foto.jpg",
+            "id": "e8801215-9b11-4a43-b979-344afccbfcc9"
+        },
+        {
+            "nome": "produto teste2",
+            "descricao": "uma descricao qualquer",
+            "preco": 700,
+            "imagem": "foto.jpg",
+            "id": "fde550fa-7f2b-4560-bff7-5011f67b6757"
+        },
+        {
+            "nome": "produto teste2",
+            "descricao": "uma descricao qualquer",
+            "preco": 700,
+            "imagem": "foto.jpg",
+            "id": "cd3b9cb7-b563-44c0-93d0-d1fc538a5de6"
+        },
+        {
+            "nome": "produto teste2",
+            "descricao": "uma descricao qualquer",
+            "preco": 700,
+            "imagem": "foto.jpg",
+            "id": "5427c68a-2ef2-4b13-bf7c-2ee741e047af"
+        },
+        {
+            "id": "1cf7a0ec-ebb8-434b-9b6c-b36c73b3bc3c",
+            "nome": "Vasco",
+            "descricao": "Maior do rio, respeita",
+            "preco": 1000000000000000000,
+            "imagem": "gigante-da-colina.jpg"
+        },
+        {
+            "id": "aeb1cfdb-7629-4162-9d16-c607b8acf5cc",
+            "nome": "Vasco",
+            "descricao": "Maior do rio, respeita",
+            "preco": 1000000000000000000,
+            "imagem": "gigante-da-colina.jpg"
+        },
+        {
+            "id": "f0c7a40c-11f8-41af-9a0e-3ba64ef86a0f",
+            "nome": "Vasco",
+            "descricao": "Maior do rio, respeita",
+            "preco": 1000000000000000000,
+            "imagem": "gigante-da-colina.jpg"
+        },
+        {
+            "id": "6991310c-9883-438f-b524-c0325b7fb004",
+            "nome": "Vasco",
+            "descricao": "Maior do rio, respeita",
+            "preco": 1000000000000000000,
+            "imagem": "gigante-da-colina.jpg"
+        },
+        {
+            "nome": "Vasco",
+            "descricao": "Maior do rio, respeita",
+            "preco": 1000000000000000000,
+            "imagem": "gigante-da-colina.jpg",
+            "id": "00ffa6db-7ff2-4612-ab1b-6f2c74d589d0"
+        },
+        {
+            "nome": "TTTTTTTTTTTTTTT",
+            "descricao": "Maior do rio, respeita",
+            "preco": 1000000000000000000,
+            "imagem": "gigante-da-colina.jpg",
+            "id": "86a7815d-6eec-42ef-8dbc-a1af9f042525"
+        },
+        {
+            "nome": "TTTTTTTTTTTTTTESAOT",
+            "descricao": "Maior do rio, respeita",
+            "preco": 45,
+            "imagem": "gigante-da-colina.jpg",
+            "id": "016103cb-a2b8-4513-bcf6-c32155489133"
+        },
+        {
+            "nome": "Tênis",
+            "descricao": "Tênis de última geração",
+            "preco": 2500,
+            "imagem": "tenis.jpg",
+            "id": "c25760c1-7194-4ba7-9665-3ae1fcc712db"
+        }
+    ],
+    "clientes": [
+        {
+            "id": 1,
+            "nome": "henrique update",
+            "email": "joao.silva@example.com",
+            "senha": "123456",
+            "endereco": {
+                "rua": "Rua dos Pinheiros",
+                "numero": 123,
+                "bairro": "Centro",
+                "cidade": "São Paulo",
+                "estado": "SP",
+                "cep": "01234-567"
+            }
+        },
+        {
+            "id": 2,
+            "nome": "Maria Oliveira",
+            "email": "maria.oliveira@example.com",
+            "senha": "abcdef",
+            "endereco": {
+                "rua": "Rua das Flores",
+                "numero": 456,
+                "bairro": "Jardim",
+                "cidade": "Rio de Janeiro",
+                "estado": "RJ",
+                "cep": "98765-432"
+            }
+        },
+        {
+            "nome": "Alisson Fernandes Bernardo",
+            "email": "alisson@gmail.com",
+            "senha": "12345",
+            "endereco": {
+                "rua": "Rua Osmar Conceição",
+                "numero": 79,
+                "bairro": "Colônia Santana",
+                "cidade": "São José",
+                "estado": "SC",
+                "cep": "88123-170"
+            },
+            "id": "2c96d7a4-933a-47bf-968f-f62f0457ffa8"
+        },
+        {
+            "email": "joao@gmail.com",
+            "senha": "$2a$10$VyK6aJ9JfHMpkB.GzIOgQunvcyaFLzO6CJ8QBVeUTTTX2FfD/aqZG",
+            "endereco": {
+                "rua": "Rua Osmar Conceição",
+                "numero": 79,
+                "bairro": "Colônia Santana",
+                "cidade": "São José",
+                "estado": "SC",
+                "cep": "88123-170"
+            },
+            "id": "3f5ac4e5-d750-4bbd-97b9-ca33e90bba26"
+        },
+        {
+            "email": "fulano@gmail.com",
+            "senha": "$2a$10$KN9LcfbufOcqJpfvm86KWOzfkUPK4TaUp7/bh5fF3CEOnuuoBieza",
+            "id": "21c97a81-bed9-4ded-8be7-118510a97e86"
+        },
+        {
+            "nome": "Fulano",
+            "email": "fulano@gmail.com",
+            "senha": "$2a$10$iN6FhWcWnd2jk2RClmRDe.8rhKu0U185pwbKWffIQZAFIAUKOG9K2",
+            "id": "52570f1c-182e-4484-b8b6-1f4a0f8564dc"
+        },
+        {
+            "nome": "Fulano",
+            "email": "fulano@gmail.com",
+            "senha": "$2a$10$lfgGImcdukYVn/oFwzjo1uRABqVMiHCf0BUYz20SIcn/ErQl8Pviq",
+            "id": "02585a3f-3942-4f7d-838a-840bf149bd28"
+        },
+        {
+            "nome": "Fulano",
+            "email": "fulano@gmail.com",
+            "senha": "$2a$10$Y5SiQZvTjw5gkoNFjYDnQ.yFwOsZcHDDIoFvo9BGIOr.cmw/UURSi",
+            "id": "62ab5691-58b2-4dd7-8dcf-e86f31e901cb"
+        },
+        {
+            "id": "5adba3ce-6215-4525-ba66-eb86ddd4a772",
+            "nome": "henrique update",
+            "email": "douglas@example.com",
+            "senha": "$2a$10$bjTSbZbqyLNXpV5yuCAriu066X2OhwupHwCkTUtTvEabOLLgZaREu"
+        }
+    ],
+    "pedidos": [
+        {
+            "id": 1,
+            "cliente_id": 1,
+            "data_pedido": "2022-01-01",
+            "status": "pendente",
+            "itens": [
+                {
+                    "produto_id": 1,
+                    "quantidade": 2,
+                    "preco_unitario": 1500
+                },
+                {
+                    "produto_id": 2,
+                    "quantidade": 1,
+                    "preco_unitario": 30
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "cliente_id": 2,
+            "data_pedido": "2022-01-15",
+            "status": "entregue",
+            "itens": [
+                {
+                    "produto_id": 3,
+                    "quantidade": 1,
+                    "preco_unitario": 50
+                }
+            ]
+        }
+    ]
+}
