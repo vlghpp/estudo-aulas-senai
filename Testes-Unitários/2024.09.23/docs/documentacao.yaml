@@ -1,0 +1,150 @@
+openapi: 3.0.3
+
+info: 
+  title: API Senai
+  description: API de contralador de autenticação, clientes e produtos do Senai
+  version: 3.0.0
+
+paths:
+  /cliente:
+    get:
+      summary: Faz a requisição de todos os clientes e retorna um arquivo JSON deles
+      responses:
+        200:
+          description: OK
+
+    post:
+      summary: Cria um cliente e atualiza no arquivo JSON
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              description: Objeto JSON do cliente
+      responses: 
+        200:
+          description: OK
+    
+  /cliente/{id}: 
+    get:
+      summary: Faz a requisição de um cliente específico passando um id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+            description: Parâmetro passado pelo caminho para identificar um usuário no banco de dados
+      responses:
+        200:
+          description: OK
+
+    post:
+      summary: Faz a atualização no banco de dados pela informação passada
+      requestBody:
+          required: true
+          content:
+            application/json:
+              schema:
+                type: object
+                description: Objeto JSON do produto
+      responses:
+        200:
+          description: OK
+    delete:
+      summary: Deleta um usuário específico pelo id passado
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+            maximum: 1
+          description: Parâmetro passado pelo caminho para identificar um usuário no banco de dados
+      responses:
+        200:
+          description: OK
+
+  /produto:
+    get:
+      summary: Faz a requisição de todos os produtos e retorna um arquivo JSON deles
+      responses:
+        200:
+          description: OK
+
+    post:
+      summary: Cria um produto e atualiza no arquivo JSON
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              description: Objeto JSON do produto
+      responses: 
+        200:
+          description: OK
+
+  /produto/{id}: 
+    get:
+      summary: Faz a requisição de um produto específico passando um id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+            description: Parâmetro passado pelo caminho para identificar um usuário no banco de dados
+      responses:
+        200:
+          description: OK
+
+    post:
+      summary: Faz a atualização do produto específico no banco de dados
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+            description: Parâmetro passado pelo caminho para identificar um usuário no banco de dados
+      responses:
+      responses:
+        200:
+          description: OK
+
+    delete:
+      summary: Deleta um produto específico pelo id passado
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+            maximum: 1
+          description: Parâmetro passado pelo caminho para identificar um usuário no banco de dados
+      responses:
+        200:
+          description: OK
+
+  /auth/login:
+    post:
+      summary: Faz o login enviando um JSON por requisição, e compara com o banco de dados para ver se existe
+      responses:
+        200:
+          description: OK
+
+
+  /auth/logout:
+    post:
+      summary: Faz o logout do cliente quando é chamado essa rota imediatamente
+
+      responses: 
+        200:
+          description: OK
+
+      
+
+
+  

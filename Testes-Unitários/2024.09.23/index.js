@@ -8,7 +8,7 @@ const rotas_autenticacao = require('./rotas/rotas_autenticacao')
 const swaggerUI = require('swagger-ui-express')
 const YAML = require('yamljs')
 
-const swaggerDocument = YAML.load('')
+const swaggerDocument = YAML.load('./docs/documentacao.yaml')
 
 
 app.use(bodyParser.json())
@@ -18,6 +18,8 @@ app.use('/produtos', rotas_produtos)
 app.use('/cliente', rotas_clientes)
 
 app.use('/auth', rotas_autenticacao)
+
+app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocument))
 
 module.exports = app
 
