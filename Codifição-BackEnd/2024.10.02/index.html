@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>PlaayShare</title>
+</head>
+<body>
+    <header>
+        <h1>PlaayShare</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Busca</a></li>
+                <li><a href="#">Playlists</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="search">
+            <h2>Buscar Música, Artista ou Álbum</h2>
+            <input type="text" placeholder="Digite sua busca...">
+            <button>Buscar</button>
+        </section>
+
+        <section id="highlights">
+            <h2>Músicas em Destaque</h2>
+            <div class="music-card">
+                <h3>Música 1</h3>
+                <p>Artista: Artista 1</p>
+                <p>Álbum: Álbum 1</p>
+                <a href="#">Reproduzir</a>
+            </div>
+            <div class="music-card">
+                <h3>Música 2</h3>
+                <p>Artista: Artista 2</p>
+                <p>Álbum: Álbum 2</p>
+                <a href="#">Reproduzir</a>
+            </div>
+            <div class="music-card">
+                <h3>Música 3</h3>
+                <p>Artista: Artista 3</p>
+                <p>Álbum: Álbum 3</p>
+                <a href="#">Reproduzir</a>
+            </div>
+        </section>
+
+        <section id="playlists">
+            <h2>Minhas Playlists</h2>
+            <div class="music-card">
+                <h3>Playlist 1</h3>
+                <p>Descrição: Playlist de rock</p>
+                <a href="#">Ver Playlist</a>
+            </div>
+            <div class="music-card">
+                <h3>Playlist 2</h3>
+                <p>Descrição: Playlist de pop</p>
+                <a href="#">Ver Playlist</a>
+            </div>
+        </section>
+
+        <section id="login">
+            <h2>Login</h2>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Digite seu email" required>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" placeholder="Digite sua senha" required>
+                <button type="submit">Entrar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 PlaayShare. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

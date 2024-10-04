@@ -1,0 +1,174 @@
+/* Adicionando ao styles.css */
+/* styles.css */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #282c34;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #282c34;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #282c34;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Destaque para seções de músicas */
+#highlights, #recommendations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.music-card {
+    background: #e2e2e2;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    flex: 1 1 30%;
+    min-width: 200px;
+    text-align: center;
+}
+
+.music-card h3 {
+    margin: 10px 0;
+}
+
+.music-card p {
+    font-size: 14px;
+}
+
+.music-card a {
+    display: inline-block;
+    background: #282c34;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.music-card a:hover {
+    background: #444;
+}
+
+/* Estilo para a barra de busca */
+#search {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#search input {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search button {
+    padding: 10px 15px;
+    background: #282c34;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search button:hover {
+    background: #444;
+}
+
+/* Estilo para o formulário de login */
+#login {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#login label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#login input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#login button {
+    width: 100%;
+    padding: 10px;
+    background: #282c34;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login button:hover {
+    background: #444;
+}
